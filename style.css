@@ -5,12 +5,12 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+   font-family: "Raleway", sans-serif;
  }
 
 nav {
     background: #4F5E44;
-    border-bottom: 1px solid #eee;
+    
     padding: 10px 20px;
 }
 
@@ -23,16 +23,57 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px 20px;
+    margin: 20px 0px 0px;
+}
+@media (max-width: 768px) {
+   .nav-links{
+    display: none;
+   }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hamburger {
+    display: block !important;
+    background: transparent;
+     border: none;
+    color: #fff;
+     
+
+}
+.navbar{
+    display:block !important;
+}
 }
 .nav-links ul {
     list-style: none;
     display: flex;
-    gap: 55px;
+    align-items: center;
+    gap: 45px;
 }
+.nav-links ul button{ 
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-links ul button:hover{
+    border: 1px solid #DBA25B;
+    color: #DBA25B;
+    transition: 0.3s ease-in-out;
+
+}
+ .nav-links ul button:hover a{
+    color: #DBA25B;
+    text-decoration: none;
+ }
 .nav-links a {
     text-decoration: none;
      color: #fff;
+     font-weight: 400;
 }
 
 .nav-links a:hover {
@@ -40,4 +81,48 @@ nav {
     
     
      
+}
+.hamburger {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.nav-links2 {
+  display: none;
+  list-style: none;
+  position: absolute;
+  top: 110px;
+  left: 0;
+  background-color: #4F5E44;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+.navbar{
+    display: none;
+}
+.nav-links2 li {
+  padding: 12px 0;
+}
+
+.nav-links2  a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-links2 a button {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-links2 a:hover {
+  color: #DBA25B;
+}
+
+.nav-links2.show {
+  display: block;
 }
