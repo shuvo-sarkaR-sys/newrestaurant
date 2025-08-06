@@ -304,7 +304,8 @@ text-align: start !important;
      display: flex; 
      gap:  20px;
      flex-wrap: wrap;
-    
+  color: #3d3f3a;
+
     }
     .images img{
       width: 40%;
