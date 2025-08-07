@@ -489,3 +489,31 @@ margin: 50px 0px;
        .in-box{
         padding-left: 100px;
        }
+       /* footer-section start from here */
+        .footer-section{
+          background-color: #4F5E44;
+          color: white;
+          padding: 100px 0px;
+          text-align: center;
+        }
+        .footer-section img{
+          width: 250px;
+          margin: auto;
+        }
+        .footer-box{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 50px;
+          
+          margin-top: 50px;
+        }
+        .footer-box .div-5{
+           
+          padding-right: 200px;
+        }
+        .footer-box a{
+          color: white;
+          text-decoration: none;
+           margin-right: 15px;
+        }
