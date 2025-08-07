@@ -268,7 +268,7 @@ text-align: start !important;
     @media (max-width: 768px) {
       .title-2{
         margin: 50px 0px;
-        font-size: 30px;
+        font-size: 35px;
       }
       .container-3{
         margin: 0px 20px !important;
@@ -299,6 +299,7 @@ text-align: start !important;
       .div-2{
         margin: 0px 20px !important;
         flex-wrap: wrap-reverse !important;
+        height: 100% !important;
       }
       .div-2 img{
         width: 100% !important;
@@ -306,10 +307,14 @@ text-align: start !important;
       } 
       .div-2 .inner-text{
         width: 100% !important;
-        padding: 20px !important;
+        padding: 0 20px 20px 20px !important;
         text-align: center !important;
-        margin-top: 30px !important;
+        
       }
+       .reservation-section{
+        padding: 50px 0px !important;
+        margin: 40px 0px !important;
+       }
       
     }
     .text-3{
@@ -373,11 +378,11 @@ text-align: start !important;
       margin-top: 100px;
       padding: 100px 0px;
       text-align: center;
-      background-image: url('assets/8504.jpg');
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/8504.jpg');
       background-size: cover;
       background-color: #45454489;
-      background-position: fixed bottom -290px right 0px;
-      background-repeat: no-repeat;
+      background-position:   bottom 90px right 0px;
+      
       color: white;
        background-attachment: fixed;
     }
@@ -387,9 +392,9 @@ text-align: start !important;
       margin-bottom: 20px;
     }
     .btn{
-     border: 2px solid #4F5E44;
+     border: 2px solid #DBA25B;
       background-color: transparent;
-      color: #4F5E44;
+      color: #DBA25B;
   
      width: 200px;
      height: 50px;
@@ -403,3 +408,84 @@ text-align: start !important;
       color: white;
       
     }
+    /* important section start from here */
+    .title-3{
+      text-align: center;
+      font-size: 35px;
+      margin: 100px 0px;
+    }
+    .important-section{
+       margin-bottom: 100px;
+    }
+    @media (max-width: 768px) {
+      .important-section{
+        margin-bottom: 50px !important;
+      }
+      .div-3{
+      flex-wrap: wrap-reverse !important;
+      padding: 20px 20px !important;
+      }
+      .in-box{
+        padding-left: 0px !important;
+      }
+      .div-3 div{
+        width: 100% !important;
+      }
+      .div-3 div img{
+        width: 100% !important;
+         
+      }
+      .div-3-div{
+        flex-wrap: wrap !important;
+      }
+      .img-1{
+        height: auto !important;
+      }
+      .title-3{
+        font-size: 35px !important;
+        margin: 50px 0px !important;
+      }
+      .text-4{
+        font-size: 25px !important;
+        margin: 20px 0px !important;
+        text-align: center !important;
+      }
+    }
+    .div-3{
+      display: flex;
+      background-color: #F2F2F2;
+      justify-content: center;
+      padding: 50px 150px;
+      gap: 20px;
+       
+    }
+    .div-3 div{
+      width: 50%;
+       
+       
+    }
+       .div-3 div img{
+        width: 300px
+       }
+       .div-3-div{
+        display: flex;
+         
+        gap: 20px;
+       }
+       .img-1{
+        height: 420px;
+       }
+       .div-3-div-2{
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       }
+       .text-4{
+        font-size: 35px ;
+margin: 50px 0px;
+        text-align: start;
+       }
+       .in-box{
+        padding-left: 100px;
+       }
