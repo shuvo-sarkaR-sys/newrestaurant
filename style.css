@@ -757,3 +757,129 @@ margin: 50px 0px;
             object-fit: cover;
             border-radius: 10px;
            }
+           /* restaurant page start from here */
+           .hero-3 {
+                  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/r1.jpg');
+             overflow: hidden;
+               width: 100%;
+             height: 90vh;
+             background-size: cover;
+             background-repeat: no-repeat;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+           }
+           @media (max-width: 768px) {
+            .hero-3 {
+             height: 35vh;
+           } 
+           .hero-3 h1{
+             font-size: 35px !important;
+             margin: 0 20px;
+           }
+           .hero-3 p{
+             font-size: 18px !important;
+             margin-top: 10px !important;
+
+           }
+
+          }
+           .hero-3 h1 {
+             
+             color: white;
+             font-size: 55px;
+             text-align: center;
+             
+           }
+           .hero-3 p {
+             
+             color: white;
+             font-size: 24px;
+             text-align: center;
+             margin-top: 30px;
+           }
+           /* food section start from here */
+           .food-section {
+            margin: 100px 0px;
+            padding: 0px 180px;
+            display: flex;
+            gap: 50px;
+            flex-wrap: wrap;
+           }
+           @media (max-width: 768px) {
+            .food-section{
+              margin: 50px 0px;
+              padding: 0px 20px;
+            }
+            .food-section .div-4{
+              width: 100% !important;
+            }
+            .food-section .div-5{
+              width: 100% !important;
+            }
+           }
+           .food-section .div-4{
+            width: 46%;
+            text-align: center;
+           }
+           .food-section .div-5{
+            width: 46%;
+            display: flex;
+            gap: 20px;
+
+           }
+           .div-5 img{
+              width: 48%;
+           }
+           .text-8{
+            font-size: 45px;
+            margin-bottom: 50px;
+           }
+           .text-9{
+            line-height: 23px;
+            color: #3d3f3a;
+           }
+           .food-menu{
+            display: flex;
+            margin: 100px 0px;
+            padding: 0px 180px;
+           }
+           .food-menu .div-7{
+             width: 50%;
+            display: flex;
+   flex-direction: column;
+             gap:20px;
+            justify-content: center;
+            align-items: center;
+           }
+           .food-menu .div-6{
+            width: 50%;
+            display: flex;
+             flex-wrap: wrap;
+            gap: 20px;
+           }
+            
+           .food-menu div img{
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+           }
+            .btn-5{
+     border: 2px solid #DBA25B;
+      background-color: transparent;
+      color: #DBA25B;
+  
+     width: 200px;
+     height: 50px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+      
+    }
+    .btn-5:hover{
+      border: 2px solid white;
+      color: white;
+      
+    }
