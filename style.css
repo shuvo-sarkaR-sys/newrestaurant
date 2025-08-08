@@ -875,6 +875,19 @@ margin: 50px 0px;
             .food-menu .div-6{
               width: 100% !important;
             }
+            .supper-club{
+              padding: 50px 20px !important;
+            }
+            .title-10{
+              font-size: 35px !important;
+              margin-bottom: 50px !important;
+            }
+            .supper-club-content img{
+              width: 100% !important;
+            }
+             .supper-club-content .div-8{
+              width: 100% !important;
+             }
            }
             
            .food-menu div img{
@@ -900,3 +913,39 @@ margin: 50px 0px;
       color: white;
       
     }
+    .supper-club-buttons{
+      display: flex;
+       justify-content: center;
+       margin-top: 50px;
+      gap: 20px;
+    }
+    .supper-club {
+      background: #F2F2F2;
+      padding: 100px 180px;
+    }
+    .title-10 {
+      font-size: 45px;
+      text-align: center;
+      margin-bottom: 100px;
+      
+    }
+    .supper-club-content{
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap-reverse;
+    }
+    .supper-club-content img{
+      width: 47%;
+    }
+    .supper-club-content .div-8{
+      width: 47%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .div-8 p{
+      font-size: 20px;
+      line-height: 34px;
+      color: #4F5E44;
+    } 
