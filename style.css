@@ -818,6 +818,10 @@ margin: 50px 0px;
             .food-section .div-5{
               width: 100% !important;
             }
+            .text-8{
+              font-size: 35px !important;
+               
+            }
            }
            .food-section .div-4{
             width: 46%;
@@ -842,6 +846,8 @@ margin: 50px 0px;
            }
            .food-menu{
             display: flex;
+            flex-wrap: wrap;
+             
             margin: 100px 0px;
             padding: 0px 180px;
            }
@@ -858,6 +864,17 @@ margin: 50px 0px;
             display: flex;
              flex-wrap: wrap;
             gap: 20px;
+           }
+           @media (max-width: 768px) {
+            .food-menu{
+              margin: 50px 0px;
+              padding: 0px 20px;
+              justify-content: center;
+              gap: 50px;
+            }
+            .food-menu .div-6{
+              width: 100% !important;
+            }
            }
             
            .food-menu div img{
