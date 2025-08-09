@@ -828,7 +828,7 @@ margin: 50px 0px;
             text-align: center;
            }
            .food-section .div-5{
-            width: 46%;
+            width: 48%;
             display: flex;
             gap: 20px;
 
@@ -888,6 +888,12 @@ margin: 50px 0px;
              .supper-club-content .div-8{
               width: 100% !important;
              }
+              .div-9{
+                margin-top: 20px !important;
+              }
+              .div-9 img{
+                width: 100% !important;
+              }
            }
             
            .food-menu div img{
@@ -909,8 +915,8 @@ margin: 50px 0px;
       
     }
     .btn-5:hover{
-      border: 2px solid white;
-      color: white;
+      border: 2px solid #000;
+      color: #000;
       
     }
     .supper-club-buttons{
@@ -937,6 +943,7 @@ margin: 50px 0px;
     }
     .supper-club-content img{
       width: 47%;
+      border-radius: 10px;
     }
     .supper-club-content .div-8{
       width: 47%;
@@ -949,3 +956,17 @@ margin: 50px 0px;
       line-height: 34px;
       color: #4F5E44;
     } 
+    .div-9{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .div-9 img{
+      width: 32%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
