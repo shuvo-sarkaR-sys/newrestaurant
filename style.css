@@ -1104,3 +1104,31 @@ margin: 50px 0px;
   justify-content: center;
   align-items: center;
 }
+/* photos page start from here */
+.photo-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 100px 180px;
+}
+@media (max-width: 768px) {
+  .photo-section {
+    padding: 20px 20px !important;
+  }
+  .photo-section img{
+  width: 100% !important;
+    height: 300px !important;
+  }
+}
+.photo-section img {
+  width: 32%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.photo-section img:hover{
+   filter: brightness(70%);
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
