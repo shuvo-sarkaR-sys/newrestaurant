@@ -373,8 +373,8 @@ text-align: start !important;
       font-size: 18px;
     }
     .inner-text button:hover{
-      border: 2px solid #DBA25B;
-      color: #DBA25B;
+      border: 2px solid #000;
+      background-color: #DBA25B;
       
     }
     .reservation-section {
