@@ -166,6 +166,7 @@ nav{
       font-size: 45px;
       text-align: center;
       
+      
     }
     @media (max-width: 768px) {
       .title-1{
@@ -226,7 +227,9 @@ text-align: start !important;
     }
     .text-1{
       font-size: 20px;
+      text-align: start;
       line-height: 34px;
+      font-family: sans-serif !important;
       color: #4F5E44;
     }
     .contriner-2{
@@ -247,6 +250,7 @@ text-align: start !important;
       font-size: 20px;
       line-height: 34px;
       color: #4F5E44;
+      font-family: sans-serif !important;
     }
     /* opening section start from here */
     .title-2{
@@ -277,7 +281,7 @@ text-align: start !important;
         margin: 0px 20px !important;
         gap: 20px !important;
         flex-wrap: wrap-reverse !important;
-        padding-bottom: 50px !important;
+        padding-bottom: 30px !important;
       }
       .images{
         width: 100% !important;
@@ -310,13 +314,16 @@ text-align: start !important;
       } 
       .div-2 .inner-text{
         width: 100% !important;
-        padding: 0 20px 20px 20px !important;
+        padding: 0 20px 10px 20px !important;
         text-align: center !important;
         
       }
        .reservation-section{
         padding: 50px 0px !important;
         margin: 40px 0px !important;
+       }
+       .reservation-section .h-1{
+        font-size: 35px !important;
        }
       
     }
@@ -326,8 +333,10 @@ text-align: start !important;
      display: flex; 
      gap:  20px;
      flex-wrap: wrap;
-  color: #3d3f3a;
-
+  line-height: 34px;
+      color: #4F5E44;
+      font-family: sans-serif !important;
+      
     }
     .images img{
       width: 40%;
@@ -373,8 +382,8 @@ text-align: start !important;
       font-size: 18px;
     }
     .inner-text button:hover{
-      border: 2px solid #000;
-      background-color: #DBA25B;
+      border: 2px solid #DBA25B;
+      color: #DBA25B;
       
     }
     .reservation-section {
@@ -391,8 +400,12 @@ text-align: start !important;
     }
   
     .reservation-section .h-1 {
-      font-size: 35px;
+      font-size: 45px;
       margin-bottom: 20px;
+    }
+    .reservation-section p {
+      font-size: 20px;
+      
     }
     .btn{
      border: 2px solid #DBA25B;
@@ -407,14 +420,14 @@ text-align: start !important;
       margin-top: 50px;
     }
     .btn:hover{
-      border: 2px solid #000 ;
-      color: #000;
+      border: 2px solid #fff;
+      color: #fff;
       
     }
     /* important section start from here */
     .title-3{
       text-align: center;
-      font-size: 35px;
+      font-size: 45px;
       margin: 100px 0px;
     }
     .important-section{
@@ -449,7 +462,7 @@ text-align: start !important;
         margin: 50px 0px !important;
       }
       .text-4{
-        font-size: 25px !important;
+        font-size: 30px !important;
         margin: 20px 0px !important;
         text-align: center !important;
       }
@@ -460,7 +473,7 @@ text-align: start !important;
       justify-content: center;
       padding: 50px 150px;
       gap: 20px;
-       
+      
     }
     .div-3 div{
       width: 50%;
@@ -485,8 +498,8 @@ text-align: start !important;
         gap: 20px;
        }
        .text-4{
-        font-size: 35px ;
-margin: 50px 0px;
+        font-size: 45px ;
+margin: 0 0 50px 0px;
         text-align: start;
        }
        .in-box{
@@ -587,12 +600,7 @@ margin: 50px 0px;
           border-radius: 10px;
           text-align: center;
         }
-        .in-box-2 p{
-          font-size: 18px;
-          line-height: 34px;
-          color:rgb(50, 48, 48);
-           
-        }
+        
         @media (max-width: 768px) {
           .box-2 .in-box-2{
             width: 100% !important;
@@ -626,7 +634,7 @@ margin: 50px 0px;
           color: #4F5E44;
             
          
-          
+          border-radius: 5px;
           width: 200px;
           height: 50px;
           cursor: pointer;
@@ -788,14 +796,14 @@ margin: 50px 0px;
            .hero-3 h1 {
              
              color: white;
-             font-size: 55px;
+             font-size: 45px;
              text-align: center;
              
            }
            .hero-3 p {
              
              color: white;
-             font-size: 24px;
+             font-size: 20px;
              text-align: center;
              margin-top: 30px;
            }
@@ -809,8 +817,9 @@ margin: 50px 0px;
            }
            @media (max-width: 768px) {
             .food-section{
-              margin: 50px 0px;
+              margin: 50px 0px 30px !important;
               padding: 0px 20px;
+              gap:30px;
             }
             .food-section .div-4{
               width: 100% !important;
@@ -840,10 +849,7 @@ margin: 50px 0px;
             font-size: 45px;
             margin-bottom: 50px;
            }
-           .text-9{
-            line-height: 23px;
-            color: #3d3f3a;
-           }
+           
            .food-menu{
             display: flex;
             flex-wrap: wrap;
@@ -867,10 +873,10 @@ margin: 50px 0px;
            }
            @media (max-width: 768px) {
             .food-menu{
-              margin: 50px 0px;
+              margin: 0px 0px !important;
               padding: 0px 20px;
               justify-content: center;
-              gap: 50px;
+              gap: 30px;
             }
             .food-menu .div-6{
               width: 100% !important;
@@ -882,11 +888,15 @@ margin: 50px 0px;
               font-size: 35px !important;
               margin-bottom: 50px !important;
             }
+            .supper-club-content{
+              gap: 30px !important
+            }
             .supper-club-content img{
               width: 100% !important;
             }
              .supper-club-content .div-8{
               width: 100% !important;
+              gap:30px !important;
              }
               .div-9{
                 margin-top: 20px !important;
@@ -894,6 +904,9 @@ margin: 50px 0px;
               .div-9 img{
                 width: 100% !important;
               }
+               .supper-club-buttons{
+                margin-top: 0 !important;
+               }
            }
             
            .food-menu div img{
@@ -903,20 +916,20 @@ margin: 50px 0px;
             border-radius: 10px;
            }
             .btn-5{
-     border: 2px solid #DBA25B;
-      background-color: transparent;
-      color: #DBA25B;
-  
+       background-color: transparent;
+    border: 2px solid #4F5E44;
+    color: #4F5E44;
      width: 200px;
+     border-radius: 5px;
      height: 50px;
-      border-radius: 5px;
-      cursor: pointer;
+       cursor: pointer;
       font-size: 18px;
       
     }
     .btn-5:hover{
-      border: 2px solid #000;
-      color: #000;
+       
+         border: 2px solid #DBA25B;
+      color: #DBA25B;
       
     }
     .supper-club-buttons{
@@ -1011,12 +1024,14 @@ margin: 50px 0px;
         font-size: 35px !important;
       }
       
-
+.outdoor-section h2{
+  font-size: 35px !important;
+}
       
     }
     .hero-section h1 {
       color: white;
-      font-size: 55px;
+      font-size: 45px;
       text-align: center;
 
     }
@@ -1049,6 +1064,9 @@ margin: 50px 0px;
   justify-content: center;
   align-items: center;
 }
+.mt-1{
+  margin-top: 30px;
+}
      .btn-6{
      border: 2px solid #DBA25B;
       background-color: transparent;
@@ -1067,7 +1085,7 @@ margin: 50px 0px;
       
     }
 .outdoor-section h2{
-  font-size: 35px;
+  font-size: 45px;
   text-align: center;
   margin: 20px 0;
 }
@@ -1131,4 +1149,96 @@ margin: 50px 0px;
    filter: brightness(70%);
   cursor: pointer;
   transition: filter 0.3s ease;
+}
+/* Contact page start from here */
+.contact-section {
+  padding: 100px 180px;
+  background-color: #F2F2F2;
+}
+@media(max-width: 768px) {
+  .title-7 {
+    font-size: 35px;
+    margin-bottom: 50px !important;
+  }
+  .contact-section {
+    padding: 50px 20px;
+  }
+  .contact-info{
+    width: 100% !important;
+  }
+  .contact-form{
+    gap: 50px !important;
+  }
+  .text-10{
+    font-size: 30px !important;
+    margin-bottom: 20px !important;
+  }
+.social-media-1{
+  margin-top: 20px !important;
+}
+.form-1{
+  width: 100% !important;
+}
+}
+.title-7 {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.contact-form{
+  display: flex;
+   flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+   
+}
+.form-1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 48%;
+}
+.contact-info{
+  width: 48%;
+}
+.input-1{
+  height: 50px;
+  border: 2px solid #3d3f3a70;
+  padding: 10px;
+}
+.input-1:hover{
+  border: #DBA25B 2px solid;
+}
+.input-1:focus{
+  outline: none;
+}
+.input-2{
+  height: 100px;
+   border: 2px solid #3d3f3a70;;
+  padding: 10px;
+}
+.input-2:hover{
+  border: #DBA25B 2px solid;
+  outline: none;
+}
+.text-10{
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.contact-info p{
+  font-size: 20px;
+ 
+}
+.social-media-1{
+  margin-top: 30px;
+}
+.social-media-1 a {
+  color: #4F5E44;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 24px;
+}
+.social-media-1 a:hover {
+  color: #DBA25B;
 }
