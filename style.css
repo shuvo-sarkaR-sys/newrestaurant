@@ -5,10 +5,12 @@
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
+    
+  }
+ h1, h2{
    font-family: "Cinzel", serif;
-
  }
-
 nav {
     background: #4F5E44;
     
