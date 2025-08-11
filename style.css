@@ -13,6 +13,20 @@ nav {
     
     padding: 10px 20px;
 }
+.nav-links ul a.active li,
+.nav-links2 a.active li {
+  color: goldenrod; /* text color */
+ }
+
+.nav-links ul a.active button,
+.nav-links2 a.active button {
+  background-color: goldenrod;
+  color: white;
+}
+.nav-button{
+  display: none;
+   
+}
 
 .logo1 {
     width: 250px;
@@ -26,12 +40,37 @@ nav {
     margin: 20px 0px 0px;
 }
 @media (max-width: 768px) {
+.nav-button{
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 20px;
+  margin: 20px 0px;
+
+}
+.nav-button button{
+ border: 2px solid #fff;
+          background-color: transparent;
+          color: #fff;
+            
+         
+          border-radius: 5px;
+          width: 200px;
+          height: 50px;
+          cursor: pointer;
+}
+.nav-button button:hover{
+      border: 2px solid #DBA25B;
+      color: #DBA25B;
+    }
    .nav-links{
     display: none;
    }
-nav{
+.nav{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 .hamburger {
@@ -149,6 +188,11 @@ nav{
     }
     
 }
+ .swiper-slide img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
   .swiper-slide {
      
     color: white;
@@ -498,7 +542,7 @@ text-align: start !important;
         gap: 20px;
        }
        .text-4{
-        font-size: 45px ;
+        font-size: 35px ;
 margin: 0 0 50px 0px;
         text-align: start;
        }
@@ -1122,7 +1166,7 @@ margin: 0 0 50px 0px;
   }
 }
 .hero-section-1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/3394 (1).jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/even.jpeg');
   width: 100%;
   height: 90vh;
   background-size: cover;

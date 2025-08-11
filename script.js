@@ -1,6 +1,16 @@
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('nav-links2');
+ document.addEventListener("DOMContentLoaded", function () {
+  // Get the current page path (e.g., /room.html)
+  let currentPath = window.location.pathname;
 
+  // Select all nav links in both desktop and mobile menus
+  document.querySelectorAll(".nav-links a, .nav-links2 a").forEach(link => {
+    if (link.getAttribute("href") === currentPath) {
+      link.classList.add("active");
+    }
+  });
+});
 hamburger.addEventListener('click', () => {
   navLinks.classList.toggle('show');
 });
@@ -21,3 +31,5 @@ hamburger.addEventListener('click', () => {
       prevEl: '.swiper-button-prev',
     },
   });
+
+ 
