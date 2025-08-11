@@ -564,7 +564,9 @@ margin: 0 0 50px 0px;
           width: 250px;
           margin: auto;
         }
-        
+        .text-12{
+          line-height: 20px;
+        }
         @media (max-width: 768px) {
           .footer-section{
             padding: 50px 20px 20px;
@@ -860,7 +862,7 @@ margin: 0 0 50px 0px;
            .hero-3 p {
              
              color: white;
-             font-size: 20px;
+             font-size: 24px;
              text-align: center;
              margin-top: 30px;
            }
@@ -1094,8 +1096,8 @@ margin: 0 0 50px 0px;
     }
     
     .hero-section p {
-      color: rgb(204, 198, 198);
-      font-size: 20px;
+      color: #fff;
+      font-size: 24px;
       margin-top: 30px;
       text-align: center;
     }
