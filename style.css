@@ -529,8 +529,8 @@ text-align: start !important;
        
     }
        .div-3 div img{
-        width: 300px;
-        height: 300px;
+        width: 100%;
+        height: inherit;
        }
        .div-3-div{
         display: flex;
